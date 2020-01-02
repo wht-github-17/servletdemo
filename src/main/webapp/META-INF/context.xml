@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Context>
+<!--    <Resource-->
+<!--            name="jdbc/ums"-->
+<!--            type="com.mchange.v2.c3p0.ComboPooledDataSource"-->
+<!--            username="root"-->
+<!--    password="123456"-->
+<!--    url="jdbc:mysql://localhost:3306/bookstore"-->
+<!--    driverClassName="com.mysql.jdbc.Driver"-->
+<!--    maxIdle="2"-->
+<!--    maxWait="5000"-->
+<!--    maxActive="4"/>-->
+    <Resource
+        name="jdbc/ums"
+        type="javax.sql.DataSource"
+        username="root"
+        password="123456"
+        url="jdbc:mysql://localhost:3306/bookstore"
+        driverClassName="com.mysql.jdbc.Driver"
+        maxIdle="2"
+        maxWait="5000"
+        maxActive="4"/>
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+</Context>

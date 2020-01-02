@@ -1,0 +1,105 @@
+body{
+    width:900px;
+    margin:0px auto;
+}
+body,table{
+    font-size: 14px;
+}
+#register table{
+    width:600px;
+    border-bottom:1px dotted gray;
+    padding-bottom:3px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color:blue;
+}
+/*
+用户登录页面
+ */
+#login{
+    text-align: center;
+    border:1px solid gray;
+
+    background-color: lightgray;
+
+    width:300px;
+    height:200px;
+    float:left;
+
+}
+#login form{
+    /*border:1px solid red;*/
+    width:260px;
+    margin:5px auto;
+}
+
+table{
+    width:100%;
+    /*border:1px solid red;*/
+}
+#info{
+    /*border:1px solid gray;*/
+    margin-left: 10px;
+    width:400px;
+    height:200px;
+    float:left;
+}
+/*
+top.jsp
+ */
+
+ul li{
+    list-style-type: none;
+    float:left;
+    font-family: 黑体;
+}
+#top_right{
+    /*border:1px solid red;*/
+    width:350px;
+    float:right;
+
+}
+#nav{
+
+    /*border:1px solid red;*/
+    height:30px;
+    background-color:darkseagreen;
+
+
+    /*clear:both;*/
+
+}
+#search{
+    /*border:1px solid red;*/
+    text-align:right;
+}
+#bottom{
+
+}
+
+#detail{
+    border:1px solid gray;
+}
+#detail table tr td table tr td{
+    border-bottom: 1px solid greenyellow;
+}
+/*
+index.jsp
+ */
+#notice{
+    border: 1px solid greenyellow;
+    width:400px;
+    float:left;
+}
+#sale{
+    margin-left:30px;
+    border: 1px solid yellow;
+    width:400px;
+    float:left;
+}
